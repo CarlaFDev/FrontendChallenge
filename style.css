@@ -29,7 +29,7 @@ a{
 }
 
 header {
-    background-image: url(img/bg-tablet-pattern.svg);
+    background-image: url("img/bg-tablet-pattern.svg");
     background-repeat:no-repeat;
     background-position: right -170px top -200px;
 }
