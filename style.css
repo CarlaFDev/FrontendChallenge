@@ -25,11 +25,11 @@ a{
 /*HEADER*/
 
 .navbar .navbar-toggler-icon{
-  background-image:url("/img/icon-hamburger.svg");
+  background-image:url("img/icon-hamburger.svg");
 }
 
 header {
-    background-image: url(/img/bg-tablet-pattern.svg);
+    background-image: url(img/bg-tablet-pattern.svg);
     background-repeat:no-repeat;
     background-position: right -170px top -200px;
 }
