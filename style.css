@@ -1,0 +1,334 @@
+
+
+img{
+    max-width: 100%;
+}
+h1,h2,h3,h4{
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight:700 !important;
+    color: hsl(228, 39%, 23%);
+}
+p{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 16px;
+    color:hsl(227, 12%, 61%);
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*HEADER*/
+
+.navbar .navbar-toggler-icon{
+  background-image:url(" ../img/icon-hamburger.svg");
+}
+
+header {
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat:no-repeat;
+    background-position: right -170px top -200px;
+}
+
+nav ul li a{
+    color:hsl(228, 39%, 23%);
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: hsl(227, 12%, 61%);
+}
+
+.header-box{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.header-content{
+    padding-top: 40px;
+    padding-right:10px;
+}
+
+.header-content > h1{
+    font-size:3rem;
+}
+
+.header-content >p{
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size:0.925rem;
+}
+
+.header-img{
+    width:80%;
+}
+
+header .btn{
+    border-color:transparent;
+    border-radius:30px;
+    background-color: hsl(12, 88%, 59%);
+    font-size:12px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    color:white;
+}
+header .btn:hover {
+    border-color:transparent;
+    box-shadow: 5px 10px 18px hsl(12, 88%, 59%);
+    background: hsl(12, 88%, 59%);
+    color: white;
+}
+
+header .btn:active {
+    background: hsl(12, 88%, 59%) !important;
+    border-color:transparent;
+  }
+
+/*ABOUT*/
+.about-content > h2{
+    font-size:2.3rem;
+}
+
+.about-content > p{
+    padding-top:40px;
+}
+
+.title-list .btn{
+    width:50px;
+    border-color: transparent;
+    border-radius:30px;
+    background-color: hsl(12, 88%, 59%);
+    font-size:14px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.title-list .btn:hover{
+    color: white;
+}
+
+.title-list >h3{
+    font-size: 1.2rem;
+    padding-right:20px;
+}
+
+.about-list-item > p {
+   text-align: left;
+   padding-left:70px;
+   padding-top:20px;
+}
+
+.about-list-item{
+    margin-bottom:60px;
+}
+
+main {
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat:no-repeat;
+    background-position: left -350px top 350px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+/*DEPOIMENTOS*/
+.testimonials{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.testimonials > h2{
+    text-align: center;
+    margin-bottom:80px;
+}
+
+.testi-item{
+    text-align: center;
+}
+
+.testi-item > img{
+   width:72px;
+   height:72px;
+}
+
+.testi-item >h4{
+    font-size: 14px;
+    margin:20px;
+
+    
+}
+
+.testi-item >p {
+    background:hsl(0, 0%, 98%) ;
+    padding: 40px;
+   padding-top: 80px;
+    margin-top:-85px;
+}
+
+.testimonials .btn{
+    border-color: transparent;
+    border-radius:30px;
+    background-color: hsl(12, 88%, 59%);
+    font-size:12px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    margin-top:50px;
+    width: 130px;
+    color: white;
+}
+.testimonials .btn:hover {
+    border-color:transparent;
+    box-shadow: 5px 10px 18px hsl(12, 88%, 59%);
+    background: hsl(12, 88%, 59%);
+    color: white;
+}
+
+.testimonials .btn:active {
+    background: hsl(12, 88%, 59%) !important;
+    border-color:transparent;
+}
+
+
+/*CALL-TO-ACTION*/
+.cto{
+    background:hsl(12, 88%, 59%);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top:60px;
+    margin-bottom: 0;
+}
+
+.cto-title{
+    font-size:2rem;
+    color: white !important;
+    font-weight: 700;
+}
+
+.cto  .btn{
+    border-color: transparent;
+    border-radius:30px;
+    background-color:white;
+    font-size:12px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    width: 130px;
+    color:hsl(12, 88%, 59%);
+    font-weight: 700;
+    float: right;
+    margin-top: 20px;
+}
+.cto .btn:hover {
+    border-color:transparent;
+    box-shadow: 5px 10px 18px white;
+    color: hsl(12, 88%, 59%);
+    background-color: white;
+}
+
+.cto .btn:active {
+    background: hsl(12, 88%, 59%) !important;
+    border-color:transparent;
+  }
+
+/*FOOTER*/
+footer{
+    background: hsl(228, 39%, 23%);
+    color:white;
+    padding-top:60px;
+    padding-bottom:60px;
+    margin-top:-120px;
+    display:flex;   
+}
+
+footer ul li a:hover{
+    color: hsl(227, 12%, 61%);
+}
+
+footer input{
+    border-radius: 30px !important;
+    width: 200px !important;
+}
+
+footer ul li a{
+    color: white;
+    text-align: left;
+}
+
+footer .midia li a {
+    float: left;
+    margin:5px;
+  
+}
+footer .midia {
+    margin-left:-45px;
+}
+
+.midia ul{
+    margin-top:20px;
+}
+
+footer  .btn{
+    border-color: transparent;
+    border-radius:30px;
+    background-color:hsl(12, 88%, 59%);
+    font-size:12px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    color:white;
+}
+
+footer .formu{
+    margin-left:45px;
+}
+
+footer .btn:hover {
+    border-color:transparent;
+    box-shadow: 5px 10px 18px hsl(12, 88%, 59%);
+    background: hsl(12, 88%, 59%);
+    color: white;
+}
+
+footer .btn:active {
+    background: hsl(12, 88%, 59%) !important;
+    border-color:transparent;
+}
+
+
+/*MEDIA QUERIES*/
+  @media only screen and (max-width: 600px){
+footer .formu{
+    order: 1;
+}
+footer .midia{
+    order: 4;
+}
+footer .midia ul {
+    margin-left:70px;
+    text-align: center;
+}
+.cto {
+  display: block;
+  text-align: center;
+}
+.cto .btn{
+    float: none;
+}
+.about-content >h2{
+    text-align: center;
+}
+.header-content{
+    order: 2;
+    text-align: center;
+}
+
+  }
