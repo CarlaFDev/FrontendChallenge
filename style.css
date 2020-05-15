@@ -132,7 +132,7 @@ header .btn:active {
 }
 
 main {
-    background-image: url(../img/bg-tablet-pattern.svg);
+    background-image: url(img/bg-tablet-pattern.svg);
     background-repeat:no-repeat;
     background-position: left -350px top 350px;
     padding-top: 60px;
