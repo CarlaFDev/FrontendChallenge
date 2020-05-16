@@ -327,7 +327,7 @@ footer .midia ul {
     text-align: center;
 }
 .about-content >p{
-    text-align: center;
+    text-align: center !important;
 }
 .header-content{
     order: 2;
