@@ -323,7 +323,10 @@ footer .midia ul {
 .cto .btn{
     float: none;
 }
-.about-content {
+.about-content >h2{
+    text-align: center;
+}
+.about-content >p{
     text-align: center;
 }
 .header-content{
